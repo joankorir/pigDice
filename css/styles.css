@@ -1,0 +1,49 @@
+.container{
+   background-image: url('../img/PJ-Masks.jpg');
+   background-size: cover;
+   background-repeat:no-repeat;
+   width:auto;
+   height:1000px;
+}
+.text{
+    background-image: url('../img/pig.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 40px;
+    padding:90px;
+    color: blue;
+
+
+}
+.word{
+   text-align:left;
+   font-family: monospace;
+   color:blue;
+   background-color:white;
+   float:left;
+   width: auto;
+
+}
+.row1{
+   text-align: center;
+}
+.mark1{
+  font-size: 20px;
+  color: tomato;
+  font-weight: bolder;
+}
+.mark2{
+   font-size:20px;
+   color:tomato;
+}
+.images{
+  float: none;
+  text-align: center;
+  padding-left:s20px;
+  width:auto;
+}
+.mark3{
+   text-align: center;
+   color:blue;
+}
