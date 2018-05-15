@@ -1,28 +1,28 @@
 //business interface logic//
+//created of the players consist initialized to 0//
 function play(player 1,player 2,results){
-  this.player 1=player 1;
-  this.player 2=player 2;
-  this.results=results;
+  this.player 1=name;
+  this.player 2=name;
+  this.results = 0;
 
 }
-var results,player;
- var btnRoll=document.querySelector("btnRoll");
-  var btnHold=document.querySelector("btnHold")
-  condition()
-   for (var i = 0; i < array.length; i++) {
-     array[i]
-   }
+ //dinitialized scoresPoint be 0//
+function playerturns(players:player1 ,Player2 scoresPoint:[0]){
+    this.name=name;
+    this.scoresPoint=0;
 
 
+  }
+  playerturns.prototype.scoresPoint = function () {
+    return scoresPoint;
 
-  play.prototype.results=function(){
-    return this.player 1 + ""+this.player 2
-     if (pig dice game){
-       var pig dice =Math.floor(Math.random()*6) +1;
-         var results=document.querySelector('.pig dice');
-          var results=document.querySelector()
-        if(results[player]>=50{
-          $("# ")
+
+  };
+  //random number
+   if(playingturns){
+       var pidice = math.floor(math.random()*6+1;
+       //results
+
 
 
 
@@ -31,20 +31,6 @@ var results,player;
     }
 
      //user interface logic//
-     $(document).ready(function(){
-       $("button.btnRoll".submit(function(event){
-         $(".result").text("");
-         condition();
-         $(".result").show();
-         $("#result").val('');
-         event.preventDefault();
-       }
-     }
 
-
-
-
-
-   }
 
 }
