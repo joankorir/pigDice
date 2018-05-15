@@ -2,15 +2,14 @@
 
 
 //created of the players consist initialized to 0//
-function play(player 1,player 2,results){
+function play(player 1,player 2){
   this.player 1=name;
   this.player 2=name;
-  this.results = results;
+
 
 }
  //initialized scoresPoint be 0//
-function playerturns(players:player1 ,Player2 scoresPoint:[0]){
-    this.name=name;
+function playerturns(scoresPoint){
     this.scoresPoint=0;
 
 
@@ -22,14 +21,14 @@ function playerturns(players:player1 ,Player2 scoresPoint:[0]){
   };
   //random number
    if(playingturns){
-       var Roll Dice = math.floor(math.random()*6+1;
+       var RollDice = math.floor(math.random()*6+1;
        //results
       $("#Roll").on ('click',function(){
         return("Dice rolled");
       };
     };
     //displays the current playing and limits scoresPoint
-    if(player1.activeplayer)
+    if(player1.activeplayer){
        var scoresPoint =player1.Roll Dice();
        if(score<=1){
       player1.Hold();
@@ -37,16 +36,16 @@ function playerturns(players:player1 ,Player2 scoresPoint:[0]){
 
       player2.curentactiveplayer ();
       //results
-      $("#play").val(player1 scoresPoint());
+      $("#play").val(player1.scoresPoint());
     }
     //The next player details
-    else{
+  }  else{
       var scoresPoint=player2.Roll Dice();
         if(score <=1){
       player2.Hold();
        alert("Its the next person chance since you scored 1")
         player1.currentplayer ();
-      $("#play-").val(player2 scoresPoint());
+      $("#play-").val(player2.scoresPoint());
 
 
   }
@@ -56,6 +55,7 @@ function playerturns(players:player1 ,Player2 scoresPoint:[0]){
     var winner=diceGameConfig.declarewinningPlayer(player1,player2);
     if(score>=100)
      alert("You have won the game u are The Winner")
+
   {
 
   }
