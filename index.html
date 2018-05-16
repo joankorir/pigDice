@@ -29,23 +29,25 @@
  </div>
           <div class="row">
            <div class="col-md-6 mark1">
-             <form id="player1">
-               <label for="play">Player1:</label>
-                <input type="text" id="play" value="">
+             <p>player1</p>
+            <div id="scores">0</div>
+            <button onclick="RollDice()">Roll Dice</button>
+          </div>
 
 
-         </div>
+
            <div class="col-md-6 mark2">
-             <label for="play-">Player2:</label>
-              <input type="text"id="play-"value="">
-              <button type="number" name="button">scoresPoint</button>
-            </form>
+             <p>player2</p>
+             <div id="scores1">0</div>
+             <button onclick="RollDice1()">Roll Dice</button>
+
 
         </div>
+      </div>
+
          <div class="row1">
            <div class="col-md-6">
               <br>
-              <button class="btnRoll"> <id="Roll"><type="button"> <onclick="Roll()">Roll Dice</button>
               <button  class="btnHold"> <id="Hold"> <type="button"> <name="button">Hold</button>
             </br>
           <ul id="results">
