@@ -18,4 +18,4 @@ support and contact details
 One can approach me on my email joankorir44@gmail.com when you encounter a problem
 
 [link to live site on Github Pages]
-  ()
+  (https://joankorir.github.io/pigDice/)
